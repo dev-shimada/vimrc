@@ -12,4 +12,10 @@ filetype plugin indent on
 set showcmd
 set background=dark
 set ruler
+set showmatch
 
+"set noexpand tab
+let _curfile=expand("%:r")
+if _curfile == 'Makefile'
+  set noexpandtab
+endif
