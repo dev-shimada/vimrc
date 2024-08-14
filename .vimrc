@@ -95,8 +95,8 @@ let g:ale_yaml_yamllint_options='-d "{extends: relaxed, rules: {line-length: dis
 
 call plug#end()
 
-set number
-syntax on
+"set number
+"syntax on
 set incsearch
 set hlsearch
 set smartindent
